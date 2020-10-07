@@ -1,3 +1,5 @@
+require 'pry'
+
 pigeon_data = {
   :color => {
     :purple => ["Theo", "Peter Jr.", "Lucky"],
@@ -17,13 +19,17 @@ pigeon_data = {
   }
 }
 
-
-def nyc_pigeon_organizer(data)
-  # write your code here!
+# write your code here!
   
   #create a hash where pigeon names are the keys, with each name pointing to a hash of their attributes
   
   #collecting each pigeon by name and insert it as the key of a new hash 
   
-  #keys should have :color, :gender, and :lives 
+  #keys should have :color, :gender, and :lives
+  
+  #first step - make theo, peter jr, and lucky keys 
+
+def nyc_pigeon_organizer(data)
+  binding.pry 
+  
 end
