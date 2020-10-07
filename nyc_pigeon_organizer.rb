@@ -30,6 +30,8 @@ pigeon_data = {
   #first step - make theo, peter jr, and lucky keys 
 
 def nyc_pigeon_organizer(data)
-  hash.each_with_object
+  hash.each_with_object({}) do |(k, v), a| 
+    a[k] = v + 3
+end  
   binding.pry 
 end
